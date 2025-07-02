@@ -24,3 +24,19 @@ CREATE TABLE produtos (
     categoria INT NOT NULL,
     FOREIGN KEY (categoria) REFERENCES categorias(id)
 );
+
+CREATE TABLE cor (
+Add comment
+More actions
+
+
+    id INT PRIMARY KEY AUTO_INCREMENT,
+
+
+    nome VARCHAR(50) NOT NULL,
+
+
+    codigo_hex VARCHAR(7) NOT NULL
+
+
+);
